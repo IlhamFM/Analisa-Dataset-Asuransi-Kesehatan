@@ -43,7 +43,7 @@ def olah_data():
     rerata_bmi_non_perokok = bmi_non_perokok.mean()
     print(f"\nRerata BMI \t\t: {bmi.mean():.2f}")
     print(f"Rerata BMI perokok \t: {rerata_bmi_perokok:.2f}")
-    print(f"tRerata BMI non perokok : {rerata_bmi_non_perokok:.2f}")
+    print(f"Rerata BMI non perokok : {rerata_bmi_non_perokok:.2f}")
 
     # variansi & rerata tagihan
     tagihan_perokok = perokok["charges"]
